@@ -1,0 +1,187 @@
+* {
+    /* border: 1px solid red; */
+    background-color: #004225;
+    margin: 0;
+font-family: 'Times New Roman', Times, serif;}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+border-bottom: 10px solid lightyellow;}
+.header {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 30px;
+    width: 70%;
+    align-items:center;
+    gap: 40px;
+    padding: 0 15px;}
+
+.header a:hover {
+    color:rgb(108, 150, 108);}
+
+.header > .active{
+    color: #FFDB58;}
+
+a {
+    text-decoration: none;
+    color: lightyellow;}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 100px;
+    text-align: center;
+    }
+.topimage {
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+.title {
+    font-size: 100px;
+    color: lightyellow;
+    font-weight: bold;
+}
+.smalltext {
+    font-size: 40px;
+    color: rgb(108, 150, 108);
+}
+
+.extra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 30px 50px 30px;
+    color: rgb(108, 150, 108);
+}
+.paragraph {
+    width: 1200px;
+}
+.writing {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.middle {
+    background-color: lightyellow;
+    padding: 10px;
+}
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 100px 100px 100px;
+    background-color: lightyellow;
+}
+.sidebar-container {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    max-height: 1000px ;
+    width: 350px;
+    padding: 20px;
+    gap: 15px;
+    background-color: #004225;
+}
+
+.smart-container {
+    display: flex;
+    height: 1040px;
+    background-color: lightyellow;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 800px;
+}
+
+.side-box {
+    display: flex;
+    height: 333px;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    flex-direction: column;
+    text-align: center;
+    background-color: #004225;
+}
+
+.smart-box {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.one {
+    border-bottom: 5px solid rgb(108, 150, 108);
+}
+
+.smart-box{
+    border-radius: 10px;
+gap: 20px;
+}
+
+.sidetext, .smart-text {
+    font-size: 18px;
+    color: rgb(108, 150, 108) ;
+}
+.smart-head, .sidetitle {
+    text-align: center;
+    font-size: 30px;
+    color: lightyellow;
+    font-weight: bold;
+}
+
+.heading {background-color: #004225;
+font-size: 18px;
+color: #FFDB58;
+font-weight: bold;}
+.sidetitle {
+    font-size: 30px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(108, 150, 108);
+    margin-top: 40px;
+ 
+}
+.foot-container {
+    padding: 30px;
+    background-color: rgb(108, 150, 108);
+}
+.text3 {
+    background-color: rgb(108, 150, 108);
+    color: #004225  ;
+    font-size: 20px;
+}
+
+.nextyear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+}
+.nextcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(108, 150, 108);
+    font-size: 20px;
+    background-color: lightyellow;
+    color: #004225;
+}
