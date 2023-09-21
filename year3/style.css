@@ -51,19 +51,7 @@ a {
 .smalltext {
     font-size: 40px;
     color: rgb(108, 150, 108);
-}
 
-.extra {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 24px;
-    margin: 30px 30px 50px 30px;
-    color: rgb(108, 150, 108);
-}
-.paragraph {
-    width: 1200px;
 }
 .writing {
     display: flex;
@@ -78,14 +66,14 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 80px 100px 100px 100px;
+    margin: 80px 100px 20px 100px;
     background-color: lightyellow;
 }
 .sidebar-container {
     display: flex;
     border-radius: 10px;
     flex-direction: column;
-    max-height: 1000px ;
+    max-height: 700px ;
     width: 350px;
     padding: 20px;
     gap: 15px;
@@ -94,7 +82,7 @@ a {
 
 .smart-container {
     display: flex;
-    height: 1040px;
+    height: 700px;
     background-color: lightyellow;
     justify-content: space-between;
     flex-direction: column;
@@ -103,11 +91,10 @@ a {
 
 .side-box {
     display: flex;
-    height: 333px;
+    height: 309px;
     justify-content: space-evenly;
     padding-bottom: 10px;
     flex-direction: column;
-    text-align: center;
     background-color: #004225;
 }
 
@@ -143,6 +130,34 @@ color: #FFDB58;
 font-weight: bold;}
 .sidetitle {
     font-size: 30px;
+}
+
+.resource-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightyellow;
+}
+
+.resource-box {
+    width: 1220px;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 80px;
+
+}
+
+.resource-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    border-radius: 10px;
+    height: 200px ;
+    padding: 20px;
+}
+
+.heading1 {
+    font-weight: bold;
 }
 
 .footer {
