@@ -51,6 +51,9 @@ justify-content: center;
     border: 2px solid lightyellow;
     border-radius: 10px;
 }
+.picture-container {
+    gap: 20px;
+}
 
 .picture {
     padding: 20px;
