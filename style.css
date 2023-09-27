@@ -154,8 +154,9 @@ flex-direction: column;
     background-color: rgb(217, 229, 195);
 }
 .button {
-    width: 100px;
+    width: 150px;
     padding: 10px;
+    font-size: 20px;
     border: 2px solid rgb(240, 245, 233);
     background-color: rgb(105, 117, 88);
     border-radius: 10px;
