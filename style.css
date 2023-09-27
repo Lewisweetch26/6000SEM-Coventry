@@ -1,6 +1,6 @@
 * {
     /* border: 1px solid red; */
-    background-color: #004225;
+    background-color: rgb(240, 245, 233);
     margin: 0;
 font-family: 'Times New Roman', Times, serif;}
 
@@ -9,7 +9,8 @@ font-family: 'Times New Roman', Times, serif;}
     justify-content: center;
     padding: 30px;
     align-items: center;
-border-bottom: 10px solid lightyellow;}
+    background-color: rgb(105, 117, 88);
+border-bottom: 10px solid rgb(240, 245, 233);}
 .header {
     display: flex;
     list-style-type: none;
@@ -18,6 +19,7 @@ border-bottom: 10px solid lightyellow;}
     width: 70%;
     align-items:center;
     gap: 40px;
+    background-color: rgb(105, 117, 88);
     padding: 0 15px;}
 
 .header a:hover {
@@ -28,7 +30,8 @@ border-bottom: 10px solid lightyellow;}
 
 a {
     text-decoration: none;
-    color: lightyellow;}
+    color: lightyellow;
+background-color: rgb(105, 117, 88);}
 
 
 .title-container {
@@ -36,7 +39,8 @@ a {
     padding: 70px 100px 80px 100px;
     font-size: 120px;
     margin: 40px 0px;
-    color: lightyellow;
+    color: rgb(105, 117, 88);
+    background-color: rgb(240, 245, 233);
     font-weight: bold;}
 
 .top-container {
@@ -44,6 +48,11 @@ display: flex;
 padding-bottom: 50px;
 align-items: center;
 justify-content: center;
+background-color: rgb(105, 117, 88);
+}
+
+.head-title {
+    background-color: rgb(240, 245, 233);
 }
 .photo {
     height: 250px;
@@ -65,7 +74,8 @@ justify-content: center;
 }
 
 .smallheading {
-    color: lightyellow;
+    color: rgb(217, 229, 195);
+    background-color: rgb(105, 117, 88);
     font-size: 24px;
     font-weight: bold;
 }
@@ -74,6 +84,7 @@ justify-content: center;
 display: flex;
 gap: 30px;
 flex-direction: column;
+
 }
 
 .message {
@@ -83,20 +94,25 @@ flex-direction: column;
     padding: 30px;
 }
 
+.picture{
+    background-color: rgb(105, 117, 88);
+
+}
+
 .picture-container {
     display: flex;
     padding: 20px;
-    background-color: #004225;
+    background-color: rgb(105, 117, 88);
     justify-content: space-around;
 }
 .smalltext {
     font-size: 24px;
-    background-color: lightyellow;
-    color: #004225;
+    background-color: rgb(217, 229, 195);
+    color: rgb(105, 117, 88);
 }
 
 .top-container, .message, .message-container, .picture-container {
-    background-color: lightyellow;
+    background-color: rgb(217, 229, 195);
 }
 
 .year-section {
@@ -113,7 +129,7 @@ flex-direction: column;
 }
 .yearbox {
     display: flex;
-    background-color: lightyellow;
+    background-color: rgb(217, 229, 195);
     padding: 40px;
     justify-content:space-around;
     flex-direction: column;
@@ -124,42 +140,42 @@ flex-direction: column;
 }
 .yeartitle {
     font-size: 70px;
-    background-color: lightyellow;
-    color: #004225;
+    background-color: rgb(217, 229, 195);
+    color: rgb(105, 117, 88);
     font-weight: bold;
 }
 
 .yeargoal {
     font-size: 24px;
-    color:#004225;
-    background-color: lightyellow;
+    color:rgb(217, 229, 195);
+    background-color: rgb(217, 229, 195);
 }
 .yearbox a {
-    background-color: lightyellow;
+    background-color: rgb(217, 229, 195);
 }
 .button {
     width: 100px;
     padding: 10px;
-    border: 2px solid #004225;
-    background-color: rgb(108, 150, 108);
+    border: 2px solid rgb(240, 245, 233);
+    background-color: rgb(105, 117, 88);
     border-radius: 10px;
-    color: lightyellow;
+    color: rgb(240, 245, 233);
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(108, 150, 108);
+    background-color: rgb(105, 117, 88);
     margin-top: 40px;
  
 }
 .foot-container {
     padding: 30px;
-    background-color: rgb(108, 150, 108);
+    background-color: rgb(105, 117, 88);
 }
 .text3 {
-    background-color: rgb(108, 150, 108);
-    color: #004225  ;
+    background-color: rgb(105, 117, 88);
+    color: rgb(240, 245, 233)  ;
     font-size: 20px;
 }
